@@ -209,7 +209,7 @@ body {
   /* Header 2 */
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   /* identical to box height, or 111% */
   margin-bottom: 72px;
   text-align: center;
@@ -363,7 +363,7 @@ body {
   background-color: #404bbf;
 }
 .section-customers {
-  padding-top: 120px 0;
+  padding: 120px 0;
 }
 .section-customer-list {
   display: flex;
