@@ -40,6 +40,14 @@ body {
 .link {
   text-decoration: none;
 }
+.page-header {
+  background: #ffffff;
+  /* CORNFLOWER */
+
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .logo {
   font-family: var(--secondary-font-family);
   font-weight: 800;
@@ -261,9 +269,7 @@ body {
 .item-secondary-section {
   flex-basis: calc((100%-72px) / 4);
 }
-.page-header {
-  border-bottom: 1px solid #e7e9fc;
-}
+
 .secondary-section {
   padding: 120px 0;
 }
