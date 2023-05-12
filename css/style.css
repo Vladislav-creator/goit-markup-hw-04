@@ -165,9 +165,12 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
 .button-on-hero:hover,
 .button-on-hero:focus {
-  background-color: #404bbf;
+  background-color: rgba(64, 75, 191, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .main-title {
   max-width: 496px;
@@ -281,6 +284,17 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
+.item-portfolio-card {
+  background: #ffffff;
+  /* CORNFLOWER */
+
+  /*border: 1px solid #e7e9fc;*/
+}
+.item-portfolio-card:hover,
+.item-portfolio-card:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .title-description-cards {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -343,9 +357,9 @@ body {
   fill: #ffffff;
 }
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: #404bbf;
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404bbf;
 }
 .section-customers {
   padding-top: 120px;
@@ -365,30 +379,47 @@ body {
   height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  color: #8e8f99;
 }
 .customers-list-icon {
   display: block;
   background-position: center center;
-  fill: #8e8f99;
+  fill: currentColor;
 }
 .customers-list-item {
   height: 88px;
   width: calc((100%-24px) / 6);
 }
-.customers-link:hover customers-list-icon,
-.customers-link:focus customers-list-icon {
-  fill: #404bbf;
+.customers-link:hover,
+.customers-link:focus {
+  color: #404bbf;
+  border-color: #404bbf;
 }
 .footer-list {
+  align-items: baseline;
   display: flex;
   gap: 120px;
 }
 .title-footer {
-  color: rgba(255, 255, 255, 1);
+  color: var(--background-color);
   font-family: var(--main-font-family);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
   margin-bottom: 16px;
+}
+.social-list-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+  background-color: green;
 }
