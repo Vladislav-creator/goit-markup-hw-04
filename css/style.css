@@ -339,6 +339,9 @@ body {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
+.social-list-icon {
+  fill: #ffffff;
+}
 
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
