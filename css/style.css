@@ -398,7 +398,9 @@ body {
 .footer-list {
   align-items: baseline;
   display: flex;
-  gap: 120px;
+}
+.block-footer-logo {
+  margin-right: 120px;
 }
 .title-footer {
   color: var(--background-color);
@@ -422,4 +424,10 @@ body {
 .social-list-link-footer:hover,
 .social-list-link-footer:focus {
   background-color: green;
+}
+.social-list-footer {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  margin-top: 8px;
 }
