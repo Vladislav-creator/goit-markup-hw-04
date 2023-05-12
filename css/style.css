@@ -230,7 +230,9 @@ body {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url('../images/hero/hero-image.jpg');
   background-size: cover;
-  /*background-color: var(--text-color);*/
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .background-four-section {
   background-color: #f4f4fd;
@@ -336,6 +338,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8px;
 }
 .picture-list-icon {
   display: block;
