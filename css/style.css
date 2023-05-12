@@ -423,11 +423,11 @@ body {
 
 .social-list-link-footer:hover,
 .social-list-link-footer:focus {
-  background-color: green;
+  background-color: #31d0aa;
 }
 .social-list-footer {
   display: flex;
   justify-content: center;
-  column-gap: 16px;
+  gap: 16px;
   margin-top: 8px;
 }
