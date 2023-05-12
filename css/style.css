@@ -437,3 +437,6 @@ body {
   gap: 16px;
   margin-top: 8px;
 }
+.link-portfolio-picture {
+  display: block;
+}
