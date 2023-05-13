@@ -234,6 +234,7 @@ body {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0 auto;
 }
 .background-four-section {
   background-color: #f4f4fd;
