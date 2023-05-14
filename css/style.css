@@ -372,7 +372,7 @@ body {
 .section-customers {
   padding: 120px 0;
 }
-.section-customer-list {
+.customers-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -388,12 +388,12 @@ body {
   border-radius: 4px;
   color: #8e8f99;
 }
-.customers-list-icon {
+.customers-icon {
   display: block;
   background-position: center center;
   fill: currentColor;
 }
-.customers-list-item {
+.customers-item {
   height: 88px;
   width: calc((100%-24px) / 6);
 }
